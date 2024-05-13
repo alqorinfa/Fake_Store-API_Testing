@@ -4,7 +4,7 @@ This repository contains automated tests for Fake Store API using Rest Assured.
 
 ## Test Cases
 
-There are 36 test cases in total, including 6 error scenarios.
+There are 39 test cases in total, including 6 error scenarios.
 
 ### Error Scenarios
 
