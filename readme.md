@@ -41,7 +41,7 @@ To run these tests locally, follow these steps:
 1. Clone this repository to your local machine.
 2. Make sure you have Java and Maven installed.
 3. Navigate to the project directory in your terminal.
-4. Run `mvn test` command to execute the tests.
+4. Run `mvn clean verify` command to execute the tests.
 
 ## Dependencies
 - Rest Assured
