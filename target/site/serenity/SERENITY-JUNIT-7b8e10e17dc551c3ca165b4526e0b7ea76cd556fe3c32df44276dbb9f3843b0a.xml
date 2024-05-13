@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="2" name="User" skipped="0" tests="10" time="0.09" timestamp="2024-05-13 10:17:54"><testcase name="As a admin, I can get all user"/><testcase name="As a admin, I can get a single user"/><testcase name="As a admin, I can limits the user result"/><testcase name="As a admin, I can sort user by descending"/><testcase name="As a admin, I can sort user by ascending"/><testcase name="As a admin, I can add new user"/><testcase name="As a admin, I cannot add new user with empty fields"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+starter.login.login.lambda$statusCode400$2(login.java:54)
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
+starter.login.login.statusCode400(login.java:54)
+starter.stepdefinitions.loginSteps.statusCode400(loginSteps.java:41)
+</system-err></testcase><testcase name="As a admin, I can update a user"/><testcase name="As a admin, I cannot update user with empty fields"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+starter.login.login.lambda$statusCode400$2(login.java:54)
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
+starter.login.login.statusCode400(login.java:54)
+starter.stepdefinitions.loginSteps.statusCode400(loginSteps.java:41)
+</system-err></testcase><testcase name="As a admin, I can delete a user"/></testsuite>

@@ -1,0 +1,9 @@
+starter/user/user.class
+starter/login/login.class
+starter/CucumberTestSuite.class
+starter/stepdefinitions/loginSteps.class
+starter/stepdefinitions/productSteps.class
+starter/stepdefinitions/cartSteps.class
+starter/products/products.class
+starter/stepdefinitions/userSteps.class
+starter/cart/cart.class

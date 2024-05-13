@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="2" name="Product" skipped="0" tests="12" time="0.12" timestamp="2024-05-13 10:17:36"><testcase name="As a user, I can get all product"/><testcase name="As a user, I can get a single product"/><testcase name="As a user, I can limits the result"/><testcase name="As a user, I can sort products by descending"/><testcase name="As a user, I can sort products by ascending"/><testcase name="As a user, I can get all categories"/><testcase name="As a user, I can get in a specific category"/><testcase name="As a user, I can add new product"/><testcase name="As a user, I cannot add new product with empty fields"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+starter.login.login.lambda$statusCode400$2(login.java:54)
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
+starter.login.login.statusCode400(login.java:54)
+starter.stepdefinitions.loginSteps.statusCode400(loginSteps.java:41)
+</system-err></testcase><testcase name="As a user, I can update a product"/><testcase name="As a user, I cannot update product with empty fields"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+starter.login.login.lambda$statusCode400$2(login.java:54)
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
+starter.login.login.statusCode400(login.java:54)
+starter.stepdefinitions.loginSteps.statusCode400(loginSteps.java:41)
+</system-err></testcase><testcase name="As a user, I can delete a product"/></testsuite>

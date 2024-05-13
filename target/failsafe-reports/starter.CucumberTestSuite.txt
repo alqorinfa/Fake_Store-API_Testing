@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: starter.CucumberTestSuite
+-------------------------------------------------------------------------------
+Tests run: 39, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 70.58 s <<< FAILURE! - in starter.CucumberTestSuite
+As a user, I cannot add new cart with empty fields(Cart)  Time elapsed: 1.388 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
+As a user, I cannot update cart with empty fields(Cart)  Time elapsed: 2.321 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
+As a user, I cannot add new product with empty fields(Product)  Time elapsed: 1.134 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
+As a user, I cannot update product with empty fields(Product)  Time elapsed: 0.957 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
+As a admin, I cannot add new user with empty fields(User)  Time elapsed: 1.113 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
+As a admin, I cannot update user with empty fields(User)  Time elapsed: 0.995 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
